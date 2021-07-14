@@ -10,19 +10,19 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main .main-container {
+main {
   background: #ebeae5;
   min-height: 100vh;
 }
 
-main .main-container .my-container {
+main .my-container {
   height: 100%;
   max-width: 1550px;
   padding: 0;
   padding-top: 15.7vh;
 }
 
-main .main-container .my-container .steps {
+main .my-container .steps {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +30,7 @@ main .main-container .my-container .steps {
   max-width: 1141px;
 }
 
-main .main-container .my-container .steps .step {
+main .my-container .steps .step {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +39,7 @@ main .main-container .my-container .steps .step {
           align-items: center;
 }
 
-main .main-container .my-container .steps .step:nth-child(1) {
+main .my-container .steps .step:nth-child(1) {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 32%;
           flex: 0 0 32%;
@@ -48,11 +48,11 @@ main .main-container .my-container .steps .step:nth-child(1) {
           justify-content: start;
 }
 
-main .main-container .my-container .steps .step:nth-child(1) .step-content {
+main .my-container .steps .step:nth-child(1) .step-content {
   background: #86b2c4;
 }
 
-main .main-container .my-container .steps .step:nth-child(1) .step-right-line::after {
+main .my-container .steps .step:nth-child(1) .step-right-line::after {
   content: '';
   display: block;
   width: 100%;
@@ -60,7 +60,7 @@ main .main-container .my-container .steps .step:nth-child(1) .step-right-line::a
   background: #86b2c4;
 }
 
-main .main-container .my-container .steps .step:nth-child(2) {
+main .my-container .steps .step:nth-child(2) {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 36%;
           flex: 0 0 36%;
@@ -69,11 +69,11 @@ main .main-container .my-container .steps .step:nth-child(2) {
           justify-content: center;
 }
 
-main .main-container .my-container .steps .step:nth-child(2) .step-content {
+main .my-container .steps .step:nth-child(2) .step-content {
   background: #aab1b2;
 }
 
-main .main-container .my-container .steps .step:nth-child(3) {
+main .my-container .steps .step:nth-child(3) {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 32%;
           flex: 0 0 32%;
@@ -82,11 +82,11 @@ main .main-container .my-container .steps .step:nth-child(3) {
           justify-content: flex-end;
 }
 
-main .main-container .my-container .steps .step:nth-child(3) .step-content {
+main .my-container .steps .step:nth-child(3) .step-content {
   background: #aab1b2;
 }
 
-main .main-container .my-container .steps .step .step-content {
+main .my-container .steps .step .step-content {
   padding: 10px 0;
   border-radius: 5px;
   width: 80%;
@@ -98,7 +98,7 @@ main .main-container .my-container .steps .step .step-content {
           justify-content: center;
 }
 
-main .main-container .my-container .steps .step .step-content .text {
+main .my-container .steps .step .step-content .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,67 +111,51 @@ main .main-container .my-container .steps .step .step-content .text {
   color: #ffffff;
 }
 
-main .main-container .my-container .steps .step .step-content .text p {
+main .my-container .steps .step .step-content .text p {
   margin: 0;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 3.2px;
 }
 
-main .main-container .my-container .steps .step .step-content .text .text-content {
+main .my-container .steps .step .step-content .text .text-content {
   text-align: left;
 }
 
-main .main-container .my-container .steps .step .step-content .text .text-content p:nth-child(1) {
+main .my-container .steps .step .step-content .text .text-content p:nth-child(1) {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.8px;
 }
 
-main .main-container .my-container .steps .step .step-content .text .text-content p:nth-child(2) {
+main .my-container .steps .step .step-content .text .text-content p:nth-child(2) {
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1.6px;
 }
 
-main .main-container .my-container .steps .step .step-right-line {
+main .my-container .steps .step .step-right-line {
   position: relative;
   width: 20%;
   height: 3px;
   background: #717777;
 }
 
-main .main-container .my-container .steps .step .step-left-line {
+main .my-container .steps .step .step-left-line {
   width: 20%;
   height: 3px;
   background: #717777;
 }
 
-main .main-container .my-container .shopping-container {
+main .my-container .shopping-container {
   width: 100%;
   margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
 }
 
-main .main-container .my-container .shopping-container .web-title {
-  position: absolute;
-  top: 0px;
-  left: -130px;
-  font-size: 98px;
-}
-
-main .main-container .my-container .shopping-container .web-title p {
-  margin: 0px;
-  -webkit-writing-mode: vertical-lr;
-  -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
-  color: #ffffff;
-}
-
-main .main-container .my-container .shopping-container .shopping-order {
+main .my-container .shopping-container .shopping-order {
   max-width: 1141px;
   width: 100%;
   min-height: 452px;
@@ -179,12 +163,12 @@ main .main-container .my-container .shopping-container .shopping-order {
   border: 1px solid #f7a269;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .order-title {
+main .my-container .shopping-container .shopping-order .order-title {
   width: 100%;
   padding-top: 20px;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .order-title ul {
+main .my-container .shopping-container .shopping-order .order-title ul {
   width: 100%;
   padding: 10px 0;
   display: -webkit-box;
@@ -193,7 +177,7 @@ main .main-container .my-container .shopping-container .shopping-order .order-ti
   border-bottom: 1px solid #a3b6c1;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .order-title ul .title {
+main .my-container .shopping-container .shopping-order .order-title ul .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,28 +190,27 @@ main .main-container .my-container .shopping-container .shopping-order .order-ti
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 14px;
-  letter-spacing: 1.6px;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .order-title ul .title:nth-child(2) {
+main .my-container .shopping-container .shopping-order .order-title ul .title:nth-child(2) {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 28%;
           flex: 0 0 28%;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart {
+main .my-container .shopping-container .shopping-order .shopping-cart {
   width: 100%;
   padding-top: 20px;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul {
+main .my-container .shopping-container .shopping-order .shopping-cart ul {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .order-cart {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .order-cart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,13 +228,13 @@ main .main-container .my-container .shopping-container .shopping-order .shopping
   font-size: 14px;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .order-cart.content {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .order-cart.content {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 28%;
           flex: 0 0 28%;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .img img {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .img img {
   max-width: 90px;
   width: 100%;
   max-height: 90px;
@@ -261,61 +244,44 @@ main .main-container .my-container .shopping-container .shopping-order .shopping
      object-position: center;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content {
-  min-height: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-title {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-title {
   color: #65737f;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-title p {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-title p {
   margin: 0;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-text {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-text {
   color: #a3b6c1;
-  font-size: 12px;
-  font-weight: lighter;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-text p {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .content .cart-content .cart-text p {
   margin: 0;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount {
   text-align: center;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p {
   margin: 0;
-  font-weight: lighter;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p:nth-child(1) {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p:nth-child(1) {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #65737f;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p:nth-child(2) {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p:nth-child(2) {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #8fa5b5;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p:nth-child(2)::after {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .price .discount p:nth-child(2)::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -325,22 +291,22 @@ main .main-container .my-container .shopping-container .shopping-order .shopping
   background-color: #8fa5b5;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .count .less, main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .count .plus {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .count .less, main .my-container .shopping-container .shopping-order .shopping-cart ul .count .plus {
   width: 13px;
   font-size: 21px;
   cursor: pointer;
   color: #65737f;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .count .less:hover {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .count .less:hover {
   color: #f7a269;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .count .plus:hover {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .count .plus:hover {
   color: #f7a269;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .count input {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .count input {
   margin: 0 5px;
   text-align: center;
   background-color: #c8d9db;
@@ -348,15 +314,14 @@ main .main-container .my-container .shopping-container .shopping-order .shopping
   border: none;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .subtotal p {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .subtotal p {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #65737f;
-  font-weight: lighter;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .delete-cart .delete .delete-button {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .delete-cart .delete .delete-button {
   padding: 5px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
@@ -364,11 +329,11 @@ main .main-container .my-container .shopping-container .shopping-order .shopping
   color: #65737f;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .delete-cart .delete .delete-button:hover {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .delete-cart .delete .delete-button:hover {
   color: #f7a269;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .favorite .fa-star {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .favorite .fa-star {
   padding: 5px;
   cursor: pointer;
   font-size: 15px;
@@ -376,11 +341,11 @@ main .main-container .my-container .shopping-container .shopping-order .shopping
   color: #65737f;
 }
 
-main .main-container .my-container .shopping-container .shopping-order .shopping-cart ul .favorite .fa-star:hover {
+main .my-container .shopping-container .shopping-order .shopping-cart ul .favorite .fa-star:hover {
   color: #f7a269;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping {
+main .my-container .shopping-container .payment-shipping {
   position: relative;
   max-width: 371px;
   width: 100%;
@@ -399,7 +364,7 @@ main .main-container .my-container .shopping-container .payment-shipping {
   border: 1px solid #f7a269;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping h3 {
+main .my-container .shopping-container .payment-shipping h3 {
   position: absolute;
   top: 20px;
   text-align: center;
@@ -407,18 +372,18 @@ main .main-container .my-container .shopping-container .payment-shipping h3 {
   letter-spacing: 3.2px;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping {
+main .my-container .shopping-container .payment-shipping .shipping {
   width: 100%;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .shipping-select {
+main .my-container .shopping-container .payment-shipping .shipping .shipping-select {
   position: relative;
   width: 80%;
   margin: auto;
   padding: 10px 0;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .shipping-select h5 {
+main .my-container .shopping-container .payment-shipping .shipping .shipping-select h5 {
   position: absolute;
   top: 3px;
   left: 15px;
@@ -427,7 +392,7 @@ main .main-container .my-container .shopping-container .payment-shipping .shippi
   font-size: 14px;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .shipping-select select {
+main .my-container .shopping-container .payment-shipping .shipping .shipping-select select {
   width: 100%;
   padding: 10px 10px;
   border-radius: 5px;
@@ -437,21 +402,20 @@ main .main-container .my-container .shopping-container .payment-shipping .shippi
   color: #65737f;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .shipping-select select:hover {
+main .my-container .shopping-container .payment-shipping .shipping .shipping-select select:hover {
   background: #abbac9;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .business {
+main .my-container .shopping-container .payment-shipping .shipping .business {
   width: 80%;
   margin: auto;
   padding: 5px 10px;
   color: #65737f;
+  border-radius: 5px;
   background-color: #abbac9;
-  font-size: 12px;
-  letter-spacing: 0.8px;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .choose {
+main .my-container .shopping-container .payment-shipping .shipping .choose {
   padding-top: 20px;
   width: 80%;
   margin: auto;
@@ -463,9 +427,8 @@ main .main-container .my-container .shopping-container .payment-shipping .shippi
           justify-content: flex-end;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .choose .choose-button {
-  font-size: 12px;
-  padding: 5px 15px;
+main .my-container .shopping-container .payment-shipping .shipping .choose .choose-button {
+  padding: 5px 10px;
   background: white;
   border: 1px solid #65737f;
   border-radius: 10px;
@@ -474,26 +437,25 @@ main .main-container .my-container .shopping-container .payment-shipping .shippi
   transition: .5s;
 }
 
-main .main-container .my-container .shopping-container .payment-shipping .shipping .choose .choose-button:hover {
+main .my-container .shopping-container .payment-shipping .shipping .choose .choose-button:hover {
   background: #f7a269;
-  color: #ffffff;
   border: 1px solid #f7a269;
 }
 
-main .main-container .my-container .other-amount {
+main .my-container .other-amount {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .main-container .my-container .other-amount .other-discount {
+main .my-container .other-amount .other-discount {
   margin-top: 20px;
   max-width: 1141px;
   width: 100%;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-tital {
+main .my-container .other-amount .other-discount .other-tital {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,13 +469,13 @@ main .main-container .my-container .other-amount .other-discount .other-tital {
   letter-spacing: 1.6px;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-tital p {
+main .my-container .other-amount .other-discount .other-tital p {
   margin: 0;
   padding: 0 5px;
   font-size: 21px;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card {
+main .my-container .other-amount .other-discount .other-card {
   width: 100%;
   margin-top: 15px;
   padding: 0 10px;
@@ -522,7 +484,7 @@ main .main-container .my-container .other-amount .other-discount .other-card {
   display: flex;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity {
+main .my-container .other-amount .other-discount .other-card .commodity {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
@@ -531,12 +493,12 @@ main .main-container .my-container .other-amount .other-discount .other-card .co
   display: flex;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .photo {
+main .my-container .other-amount .other-discount .other-card .commodity .photo {
   max-width: 112px;
   width: 100%;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .photo img {
+main .my-container .other-amount .other-discount .other-card .commodity .photo img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -544,57 +506,44 @@ main .main-container .my-container .other-amount .other-discount .other-card .co
      object-position: center;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .commodity-content {
+main .my-container .other-amount .other-discount .other-card .commodity .commodity-content {
   padding: 0 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .commodity-content .title {
-  font-size: 12px;
+main .my-container .other-amount .other-discount .other-card .commodity .commodity-content .title {
+  font-size: 14px;
   color: #444444;
   margin-bottom: 20px;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .commodity-content .content-buttone p {
+main .my-container .other-amount .other-discount .other-card .commodity .commodity-content .content-buttone p {
   margin: 0;
   color: #f7a269;
   font-size: 18px;
   font-weight: bold;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .commodity-content .content-buttone .push-cart {
+main .my-container .other-amount .other-discount .other-card .commodity .commodity-content .content-buttone .push-cart {
   border: 1px solid #65737f;
   border-radius: 10px;
   outline: none;
   padding: 5px 20px;
   -webkit-transition: .5s;
   transition: .5s;
-  font-size: 12px;
 }
 
-main .main-container .my-container .other-amount .other-discount .other-card .commodity .commodity-content .content-buttone .push-cart:hover {
+main .my-container .other-amount .other-discount .other-card .commodity .commodity-content .content-buttone .push-cart:hover {
   background: #f7a269;
-  color: #ffffff;
-  border: 1px solid #f7a269;
 }
 
-main .main-container .my-container .other-amount .amount {
+main .my-container .other-amount .amount {
   margin-top: 5px;
   margin-left: 2vw;
   max-width: 371px;
   width: 100%;
 }
 
-main .main-container .my-container .other-amount .amount .free-ship {
+main .my-container .other-amount .amount .free-ship {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -605,7 +554,7 @@ main .main-container .my-container .other-amount .amount .free-ship {
           align-items: center;
 }
 
-main .main-container .my-container .other-amount .amount .free-ship p {
+main .my-container .other-amount .amount .free-ship p {
   margin: 0;
   margin-right: 5px;
   padding: 5px;
@@ -615,11 +564,11 @@ main .main-container .my-container .other-amount .amount .free-ship p {
   border-radius: 5px;
 }
 
-main .main-container .my-container .other-amount .amount .total {
+main .my-container .other-amount .amount .total {
   padding-top: 20px;
 }
 
-main .main-container .my-container .other-amount .amount .total .price-total {
+main .my-container .other-amount .amount .total .price-total {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -629,18 +578,17 @@ main .main-container .my-container .other-amount .amount .total .price-total {
   padding-bottom: 5px;
 }
 
-main .main-container .my-container .other-amount .amount .total .price-total p {
+main .my-container .other-amount .amount .total .price-total p {
   margin: 0;
   font-size: 14px;
-  font-weight: bold;
 }
 
-main .main-container .my-container .other-amount .amount .order-total-button {
+main .my-container .other-amount .amount .order-total-button {
   width: 100%;
   padding-top: 10px;
 }
 
-main .main-container .my-container .other-amount .amount .order-total-button .order-total {
+main .my-container .other-amount .amount .order-total-button .order-total {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -653,7 +601,7 @@ main .main-container .my-container .other-amount .amount .order-total-button .or
   padding-bottom: 20px;
 }
 
-main .main-container .my-container .other-amount .amount .order-total-button .order-total p {
+main .my-container .other-amount .amount .order-total-button .order-total p {
   width: 55%;
   font-size: 15px;
   margin: 0;
@@ -661,7 +609,7 @@ main .main-container .my-container .other-amount .amount .order-total-button .or
   text-align: end;
 }
 
-main .main-container .my-container .other-amount .amount .order-total-button .order-total .order-total-price {
+main .my-container .other-amount .amount .order-total-button .order-total .order-total-price {
   width: 45%;
   padding: 0;
   color: #f7a269;
@@ -670,12 +618,10 @@ main .main-container .my-container .other-amount .amount .order-total-button .or
   text-align: end;
 }
 
-main .main-container .my-container .other-amount .amount .order-total-button .next-button {
-  cursor: pointer;
+main .my-container .other-amount .amount .order-total-button .next-button {
   width: 100%;
   border: none;
   outline: none;
-  text-decoration: none;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -19,26 +19,26 @@ body {
   scroll-behavior: smooth;
 }
 
-main .main-container {
+main {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .main-container .commodity-menu {
+main .commodity-menu {
   max-width: 375px;
   width: 100%;
   padding-top: 100px;
 }
 
-main .main-container .commodity-menu .all-commodity {
+main .commodity-menu .all-commodity {
   max-width: 200px;
   margin: auto;
   width: 100%;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-title {
+main .commodity-menu .all-commodity .commodity-menu-title {
   cursor: pointer;
   padding-left: 10px;
   margin-bottom: 10px;
@@ -46,72 +46,72 @@ main .main-container .commodity-menu .all-commodity .commodity-menu-title {
   letter-spacing: 1.6px;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-title.AllCommodity::after {
+main .commodity-menu .all-commodity .commodity-menu-title.AllCommodity::after {
   content: '\f077';
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-title.AllCommodity.active::after {
+main .commodity-menu .all-commodity .commodity-menu-title.AllCommodity.active::after {
   content: '\f078';
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-title.Snowshoe::after {
+main .commodity-menu .all-commodity .commodity-menu-title.Snowshoe::after {
   content: '\f078';
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-title.Snowshoe.active::after {
+main .commodity-menu .all-commodity .commodity-menu-title.Snowshoe.active::after {
   content: '\f077';
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-options {
+main .commodity-menu .all-commodity .commodity-menu-options {
   width: 70%;
   margin-left: 60px;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-options li {
+main .commodity-menu .all-commodity .commodity-menu-options li {
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-menu-options li a {
+main .commodity-menu .all-commodity .commodity-menu-options li a {
   color: #65737f;
 }
 
-main .main-container .commodity-menu .all-commodity .commodity-other {
+main .commodity-menu .all-commodity .commodity-other {
   cursor: pointer;
   padding-left: 10px;
   font-size: 21px;
   letter-spacing: 1.6px;
 }
 
-main .main-container .product-container {
+main .product-container {
   width: 100%;
   min-height: 100vh;
 }
 
-main .main-container .product-container .productshop-container {
+main .product-container .productshop-container {
   padding-top: 85px;
   padding-left: 2.6vw;
   background: #ebeae5;
 }
 
-main .main-container .product-container .productshop-container .breadcrumbs {
+main .product-container .productshop-container .breadcrumbs {
   margin-bottom: 20px;
 }
 
-main .main-container .product-container .productshop-container .breadcrumbs .bread-label a {
+main .product-container .productshop-container .breadcrumbs .bread-label a {
   font-size: 14px;
   color: #444444;
 }
 
-main .main-container .product-container .productshop-container .commidity-container {
+main .product-container .productshop-container .commidity-container {
   max-width: 1200px;
   margin: auto;
   display: -webkit-box;
@@ -123,32 +123,32 @@ main .main-container .product-container .productshop-container .commidity-contai
   border-bottom: 1px solid #7b8ca2;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper {
+main .product-container .productshop-container .commidity-container .swiper {
   max-width: 600.353px;
   max-height: 789.17px;
   position: relative;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-container {
+main .product-container .productshop-container .commidity-container .swiper .swiper-container {
   width: 100%;
   height: 100%;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-button-next {
+main .product-container .productshop-container .commidity-container .swiper .swiper-button-next {
   position: absolute;
   right: -5vw;
   top: 40%;
   color: #7b8ca2;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-button-prev {
+main .product-container .productshop-container .commidity-container .swiper .swiper-button-prev {
   position: absolute;
   left: -5vw;
   top: 40%;
   color: #7b8ca2;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-slide {
+main .product-container .productshop-container .commidity-container .swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -164,7 +164,7 @@ main .main-container .product-container .productshop-container .commidity-contai
   align-items: center;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-slide img {
+main .product-container .productshop-container .commidity-container .swiper .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -172,46 +172,46 @@ main .main-container .product-container .productshop-container .commidity-contai
      object-fit: cover;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper body {
+main .product-container .productshop-container .commidity-container .swiper body {
   background: #000;
   color: #000;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-container {
+main .product-container .productshop-container .commidity-container .swiper .swiper-container {
   width: 100%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-slide {
+main .product-container .productshop-container .commidity-container .swiper .swiper-slide {
   background-size: cover;
   background-position: center;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .mySwiper2 {
+main .product-container .productshop-container .commidity-container .swiper .mySwiper2 {
   height: 80%;
   width: 100%;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .mySwiper {
+main .product-container .productshop-container .commidity-container .swiper .mySwiper {
   height: 20%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 30px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .mySwiper .swiper-slide {
+main .product-container .productshop-container .commidity-container .swiper .mySwiper .swiper-slide {
   width: 25%;
   height: 100%;
   opacity: 0.4;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .mySwiper .swiper-slide-thumb-active {
+main .product-container .productshop-container .commidity-container .swiper .mySwiper .swiper-slide-thumb-active {
   opacity: 1;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .swiper .swiper-slide img {
+main .product-container .productshop-container .commidity-container .swiper .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -219,7 +219,7 @@ main .main-container .product-container .productshop-container .commidity-contai
      object-fit: cover;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail {
+main .product-container .productshop-container .commidity-container .order-detail {
   max-width: 424.94px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,7 +237,7 @@ main .main-container .product-container .productshop-container .commidity-contai
   margin-bottom: 40px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info {
   min-height: 631px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -252,11 +252,11 @@ main .main-container .product-container .productshop-container .commidity-contai
   border-bottom: 1px solid #808e9e;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .discript-title {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .discript-title {
   margin-bottom: 10px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .discript-title p {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .discript-title p {
   margin: 0px;
   font-size: 36px;
   color: #7b8ca2;
@@ -264,7 +264,7 @@ main .main-container .product-container .productshop-container .commidity-contai
   font-weight: bold;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,24 +274,24 @@ main .main-container .product-container .productshop-container .commidity-contai
   margin-bottom: 25px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .star-eval {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .star-eval {
   color: #e08549;
   font-size: 18px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 18px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl i {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl i {
   color: #7b8ca2;
   margin-right: 10px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl p {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl p {
   padding: 0px 20px;
   font-size: 14px;
   letter-spacing: 3.2px;
@@ -299,12 +299,12 @@ main .main-container .product-container .productshop-container .commidity-contai
   margin: 0px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl p:nth-child(2) {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .evaluation .other-eavl p:nth-child(2) {
   border-left: 1px solid #7b8ca2;
   border-right: 1px solid #7b8ca2;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .content .order-text {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .content .order-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,28 +313,28 @@ main .main-container .product-container .productshop-container .commidity-contai
           align-items: flex-start;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .content .order-text i {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .content .order-text i {
   margin-right: 10px;
   line-height: 26px;
   font-size: 12px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .content .order-text p {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-discript .content .order-text p {
   font-size: 14px;
   line-height: 26px;
   letter-spacing: 1.6px;
   margin: 0px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color {
   max-width: 336.7px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-title {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-title {
   margin-bottom: 25.42px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-title span:nth-child(1) {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-title span:nth-child(1) {
   font-size: 24px;
   color: #444444;
   font-weight: bold;
@@ -342,13 +342,13 @@ main .main-container .product-container .productshop-container .commidity-contai
   margin-right: 10px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-title span:nth-child(2) {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-title span:nth-child(2) {
   font-size: 12px;
   color: #7b8ca2;
   letter-spacing: 1.6px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,32 +356,46 @@ main .main-container .product-container .productshop-container .commidity-contai
       justify-content: space-around;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style input[type=checkbox] {
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  z-index: -999;
-}
-
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style input[class="color-checkbox"]:checked + label {
-  background-color: var(--color);
-}
-
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button {
   width: 36px;
   height: 36px;
   border-radius: 50%;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button:nth-child(1) {
+  background-color: #77170a;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button:nth-child(2) {
+  background-color: #1d2335;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button:nth-child(3) {
+  background-color: #a8673a;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button:nth-child(4) {
+  background-color: #dbd0bd;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button:nth-child(5) {
+  background-color: #e4e6eb;
+  border: 1px solid #a0a0a0;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-color .color-style .color-button:hover {
+  border: 1px solid #e08549;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size {
   max-width: 336.7px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-title {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-title {
   margin-bottom: 5px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-title span:nth-child(1) {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-title span:nth-child(1) {
   font-size: 24px;
   color: #444444;
   font-weight: bold;
@@ -389,51 +403,59 @@ main .main-container .product-container .productshop-container .commidity-contai
   margin-right: 10px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-title span:nth-child(2) {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-title span:nth-child(2) {
   font-size: 14px;
   font-weight: bold;
   color: #444444;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.8px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size .size-checkbox {
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  z-index: -999;
-}
-
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size input[class="size-checkbox"]:checked + label {
-  background-color: var(--sizeColor);
-}
-
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size label {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size ul li {
   width: 45px;
   height: 40px;
   text-align: center;
   line-height: 40px;
-  margin-right: 10px;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size ul li:hover {
+  background-color: #9e9e9e;
   border-radius: 5px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .small-size label:hover {
-  background-color: #9e9e9e;
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .bigger-size ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping {
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .bigger-size ul li {
+  width: 45px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .odrer-info .order-size .size-deatil .bigger-size ul li:hover {
+  background-color: #9e9e9e;
+  border-radius: 5px;
+}
+
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping {
   width: 100%;
   min-height: 156.19px;
   margin-top: 30px;
@@ -449,7 +471,7 @@ main .main-container .product-container .productshop-container .commidity-contai
           justify-content: space-between;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,14 +480,14 @@ main .main-container .product-container .productshop-container .commidity-contai
           justify-content: space-between;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button button:hover {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button button:hover {
   font-weight: bold;
   color: #ffffff;
   background-color: #abbac9;
   border: 1px solid #abbac9;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .putcart {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .putcart {
   width: 135px;
   height: 43px;
   background-color: unset;
@@ -475,7 +497,7 @@ main .main-container .product-container .productshop-container .commidity-contai
   border-radius: 5px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .pre-order {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .pre-order {
   width: 70px;
   height: 43px;
   background-color: unset;
@@ -485,13 +507,13 @@ main .main-container .product-container .productshop-container .commidity-contai
   border-radius: 5px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .minus {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .minus {
   width: 45px;
   height: 40px;
   background-color: unset;
@@ -501,12 +523,12 @@ main .main-container .product-container .productshop-container .commidity-contai
   font-weight: unset;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .minus:hover {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .minus:hover {
   color: #ffffff;
   background-color: #abbac9;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input {
   width: 60px;
   height: 40px;
   border: none;
@@ -514,27 +536,27 @@ main .main-container .product-container .productshop-container .commidity-contai
   -webkit-appearance: none;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input::-webkit-input-placeholder {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input::-webkit-input-placeholder {
   font-size: 18px;
   color: #e08549;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input:-ms-input-placeholder {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input:-ms-input-placeholder {
   font-size: 18px;
   color: #e08549;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input::-ms-input-placeholder {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input::-ms-input-placeholder {
   font-size: 18px;
   color: #e08549;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input::placeholder {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount input::placeholder {
   font-size: 18px;
   color: #e08549;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .plus {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .plus {
   width: 45px;
   height: 40px;
   background-color: unset;
@@ -544,12 +566,12 @@ main .main-container .product-container .productshop-container .commidity-contai
   font-weight: unset;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .plus:hover {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-button .order-amount .plus:hover {
   color: #ffffff;
   background-color: #abbac9;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -558,12 +580,12 @@ main .main-container .product-container .productshop-container .commidity-contai
           align-items: flex-end;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price p {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price p {
   margin: 0px;
   padding: 0px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price p:nth-child(1) {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price p:nth-child(1) {
   font-size: 21px;
   color: #7f7f7f;
   letter-spacing: 0.8px;
@@ -571,18 +593,18 @@ main .main-container .product-container .productshop-container .commidity-contai
   margin-right: 20px;
 }
 
-main .main-container .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price p:nth-child(2) {
+main .product-container .productshop-container .commidity-container .order-detail .order-shipping .order-price p:nth-child(2) {
   font-size: 60px;
   letter-spacing: 0.8px;
   color: #e08549;
   line-height: 60px;
 }
 
-main .main-container .product-container .productdetail-container {
+main .product-container .productdetail-container {
   background: #ebeae5;
 }
 
-main .main-container .product-container .productdetail-container .detail-container {
+main .product-container .productdetail-container .detail-container {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -599,13 +621,13 @@ main .main-container .product-container .productdetail-container .detail-contain
           align-items: center;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs {
+main .product-container .productdetail-container .detail-container .tabs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs .tab {
+main .product-container .productdetail-container .detail-container .tabs .tab {
   cursor: pointer;
   font-size: 24px;
   letter-spacing: 0.8px;
@@ -613,16 +635,16 @@ main .main-container .product-container .productdetail-container .detail-contain
   padding: 0px 35px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs .tab:nth-child(2) {
+main .product-container .productdetail-container .detail-container .tabs .tab:nth-child(2) {
   border-right: 1px solid #7b8ca2;
   border-left: 1px solid #7b8ca2;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs .tab.active {
+main .product-container .productdetail-container .detail-container .tabs .tab.active {
   position: relative;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs .tab.active:after {
+main .product-container .productdetail-container .detail-container .tabs .tab.active:after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -632,11 +654,11 @@ main .main-container .product-container .productdetail-container .detail-contain
   background-color: #e08549;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs .tab:hover {
+main .product-container .productdetail-container .detail-container .tabs .tab:hover {
   position: relative;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs .tab:hover:after {
+main .product-container .productdetail-container .detail-container .tabs .tab:hover:after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -646,7 +668,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   background-color: #e08549;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents {
+main .product-container .productdetail-container .detail-container .tabs-contents {
   position: relative;
   margin: auto;
   margin-top: 20px;
@@ -655,7 +677,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   display: flex;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .tab-c {
+main .product-container .productdetail-container .detail-container .tabs-contents .tab-c {
   position: absolute;
   top: 0;
   left: 0;
@@ -667,18 +689,18 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: display 1s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .tab-c.active {
+main .product-container .productdetail-container .detail-container .tabs-contents .tab-c.active {
   opacity: 1;
   position: static;
   -webkit-transition: display 1s;
   transition: display 1s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content {
   margin-top: 30px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .paragraph-first {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .paragraph-first {
   max-width: 890px;
   text-align: justify;
   font-size: 15px;
@@ -686,7 +708,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   line-height: 28px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .paragraph-second {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .paragraph-second {
   max-width: 890px;
   text-align: justify;
   font-size: 15px;
@@ -694,7 +716,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   line-height: 28px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail {
   min-height: 969px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -708,18 +730,18 @@ main .main-container .product-container .productdetail-container .detail-contain
   padding-right: 12vw;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes {
   position: relative;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .main-photo {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .main-photo {
   max-width: 653px;
   min-height: 342px;
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .bg-square {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .bg-square {
   width: 483px;
   height: 483px;
   background-color: #d1d0cd;
@@ -730,7 +752,7 @@ main .main-container .product-container .productdetail-container .detail-contain
      object-fit: cover;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .bg-shadow {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .bg-shadow {
   width: 283px;
   height: 20px;
   border-radius: 50%;
@@ -744,17 +766,17 @@ main .main-container .product-container .productdetail-container .detail-contain
           filter: blur(4px);
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function {
   position: absolute;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first {
   position: absolute;
   top: -200px;
   left: -175px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button {
   position: absolute;
   bottom: -102px;
   right: -55px;
@@ -766,7 +788,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   z-index: 1;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active:before {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active:before {
   content: "";
   position: absolute;
   top: -16px;
@@ -796,7 +818,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active:after {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active:after {
   content: "";
   position: absolute;
   top: -44px;
@@ -820,7 +842,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active ~ .content-first {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active ~ .content-first {
   width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -833,7 +855,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active ~ .content-first .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .click-button.active ~ .content-first .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -841,7 +863,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .content-first {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .content-first {
   width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -854,7 +876,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .content-first .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-first .content-first .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -862,13 +884,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second {
   position: absolute;
   top: 435px;
   left: -180px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button {
   position: absolute;
   top: -149px;
   left: 306px;
@@ -880,7 +902,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   z-index: 1;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button.active:before {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button.active:before {
   content: "";
   position: absolute;
   bottom: -64px;
@@ -908,7 +930,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button.active ~ .content-second {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button.active ~ .content-second {
   width: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -921,7 +943,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button.active ~ .content-second .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .click-button.active ~ .content-second .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -929,7 +951,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .content-second {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .content-second {
   width: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -942,7 +964,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .content-second .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-second .content-second .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -950,13 +972,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third {
   position: absolute;
   top: 435px;
   left: 600px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button {
   position: absolute;
   top: -260px;
   left: -200px;
@@ -968,7 +990,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   z-index: 1;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button.active:before {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button.active:before {
   content: "";
   position: absolute;
   bottom: -180px;
@@ -996,7 +1018,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button.active ~ .content-third {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button.active ~ .content-third {
   width: 587px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1009,7 +1031,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button.active ~ .content-third .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .click-button.active ~ .content-third .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1017,7 +1039,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .content-third {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .content-third {
   width: 587px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1030,7 +1052,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .content-third .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-third .content-third .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1038,13 +1060,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth {
   position: absolute;
   top: -25px;
   left: 695px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button {
   position: absolute;
   top: 220px;
   left: -65px;
@@ -1056,7 +1078,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   z-index: 1;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active:before {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active:before {
   content: "";
   position: absolute;
   bottom: 28px;
@@ -1086,7 +1108,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active:after {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active:after {
   content: "";
   position: absolute;
   bottom: 71px;
@@ -1114,13 +1136,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1131,15 +1153,15 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one img {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one img {
   width: 300px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one .content-text {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one .content-text {
   width: 205px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-one .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1147,7 +1169,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two {
   position: absolute;
   top: 205px;
   left: 70px;
@@ -1161,15 +1183,15 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two img {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two img {
   width: 300px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two .content-text {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two .content-text {
   width: 150px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .click-button.active ~ .content-fourth .content-fourth-two .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1177,13 +1199,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth {
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1194,15 +1216,15 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one img {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one img {
   width: 300px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one .content-text {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one .content-text {
   width: 205px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-one .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1210,7 +1232,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two {
   position: absolute;
   top: 205px;
   left: 70px;
@@ -1224,15 +1246,15 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two img {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two img {
   width: 300px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two .content-text {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two .content-text {
   width: 150px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fourth .content-fourth .content-fourth-two .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1240,13 +1262,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth {
   position: absolute;
   top: -317px;
   left: 500px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button {
   position: absolute;
   bottom: -150px;
   left: 20px;
@@ -1258,7 +1280,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   z-index: 1;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active:before {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active:before {
   content: "";
   position: absolute;
   bottom: 112px;
@@ -1286,7 +1308,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   }
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active ~ .content-fifth {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active ~ .content-fifth {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1298,11 +1320,11 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active ~ .content-fifth .content-text {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active ~ .content-fifth .content-text {
   width: 270px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active ~ .content-fifth .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .click-button.active ~ .content-fifth .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1310,7 +1332,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .content-fifth {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .content-fifth {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1322,11 +1344,11 @@ main .main-container .product-container .productdetail-container .detail-contain
   transition: 0.5s;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .content-fifth .content-text {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .content-fifth .content-text {
   width: 270px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .content-fifth .content-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .product-description .inner-content .shoes-detail .main-shoes .click-function .click-fifth .content-fifth .content-text p {
   font-size: 14px;
   letter-spacing: 0.8px;
   line-height: 21px;
@@ -1334,49 +1356,49 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0px 0px 0px 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process {
   min-height: 969px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container {
   width: 600px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-title {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-title {
   margin-bottom: 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-title p {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-title p {
   display: inline-block;
   color: #e08549;
   font-size: 18px;
   border-bottom: 1px solid #e08549;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-title h2 {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-title h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-list {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-list {
   margin-bottom: 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-list p {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-list p {
   color: #7b8ca2;
   font-size: 18px;
   font-weight: bold;
@@ -1385,14 +1407,14 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin: 0;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-text p {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-content .swiper-container .swiper-wrapper .swiper-slide .development-process-text p {
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.8px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 55%;
           flex: 0 0 55%;
@@ -1400,13 +1422,13 @@ main .main-container .product-container .productdetail-container .detail-contain
   overflow-x: hidden;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper .swiper-container {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper .swiper-container {
   width: 900px;
   height: 640px;
   margin-bottom: 50px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper .swiper-slide {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -1423,7 +1445,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   align-items: center;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper .swiper-slide img {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .inner-content .development-process-swiper .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -1431,7 +1453,7 @@ main .main-container .product-container .productdetail-container .detail-contain
      object-fit: cover;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1441,7 +1463,7 @@ main .main-container .product-container .productdetail-container .detail-contain
           justify-content: flex-end;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
@@ -1453,7 +1475,7 @@ main .main-container .product-container .productdetail-container .detail-contain
           justify-content: space-between;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next {
   position: relative;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 85%;
@@ -1469,7 +1491,7 @@ main .main-container .product-container .productdetail-container .detail-contain
           justify-content: space-between;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next .swiper-pagination-bullet {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next .swiper-pagination-bullet {
   position: relative;
   z-index: 2;
   background: #444444;
@@ -1479,7 +1501,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   height: 15px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next .swiper-pagination-bullet p {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next .swiper-pagination-bullet p {
   position: absolute;
   top: 20px;
   left: 50%;
@@ -1488,12 +1510,12 @@ main .main-container .product-container .productdetail-container .detail-contain
   white-space: nowrap;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next .swiper-pagination-bullet.swiper-pagination-bullet-active {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next .swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #e08549;
   background: #e08549;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next::before {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .pagination-next::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -1505,38 +1527,38 @@ main .main-container .product-container .productdetail-container .detail-contain
   background: #444444;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .button-next {
+main .product-container .productdetail-container .detail-container .tabs-contents .development-process .swiper-step .swiper-step-button .button-next {
   text-align: center;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 10%;
           flex: 0 0 10%;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation {
   min-height: 700px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content {
   max-width: 550px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .announcement {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .announcement {
   margin-top: 30px;
   border-bottom: 1px solid #8090a0;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .announcement p {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .announcement p {
   font-size: 21px;
   line-height: 26px;
   color: #e08549;
   letter-spacing: 0.8px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript {
   margin-top: 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .discript-content {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .discript-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1550,7 +1572,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin-bottom: 35px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .discript-content .title {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .discript-content .title {
   font-size: 21px;
   line-height: 26px;
   color: #e08549;
@@ -1558,7 +1580,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin-bottom: 20px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .discript-content .content {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .discript-content .content {
   max-width: 425px;
   font-size: 15px;
   line-height: 26px;
@@ -1566,7 +1588,7 @@ main .main-container .product-container .productdetail-container .detail-contain
   color: #444444;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .tryon-experience .staff {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .tryon-experience .staff {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1580,14 +1602,14 @@ main .main-container .product-container .productdetail-container .detail-contain
   margin-bottom: 35px;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .tryon-experience .staff .staff-name {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .tryon-experience .staff .staff-name {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.8px;
   color: #444444;
 }
 
-main .main-container .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .tryon-experience .staff .staff-exp {
+main .product-container .productdetail-container .detail-container .tabs-contents .size-recommendation .inner-content .size-discript .tryon-experience .staff .staff-exp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1605,28 +1627,28 @@ main .main-container .product-container .productdetail-container .detail-contain
   color: #444444;
 }
 
-main .main-container .product-container .productother-container {
+main .product-container .productother-container {
   width: 100%;
   padding-top: 60px;
   background-color: #ffffff;
 }
 
-main .main-container .product-container .productother-container .other-container {
+main .product-container .productother-container .other-container {
   max-width: 1120px;
   margin: auto;
   margin-bottom: 100px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval {
+main .product-container .productother-container .other-container .customer-eval {
   border-bottom: 1px solid #7b8ca2;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .eval-title {
+main .product-container .productother-container .other-container .customer-eval .eval-title {
   font-size: 36px;
   letter-spacing: 0.8px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval {
+main .product-container .productother-container .other-container .customer-eval .different-eval {
   max-width: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1640,18 +1662,18 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 40px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .star-eval p {
+main .product-container .productother-container .other-container .customer-eval .different-eval .star-eval p {
   font-size: 14px;
   letter-spacing: 3.2px;
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .star-eval .star-img {
+main .product-container .productother-container .other-container .customer-eval .different-eval .star-eval .star-img {
   font-size: 14px;
   color: #e08549;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .score {
+main .product-container .productother-container .other-container .customer-eval .different-eval .score {
   width: 150px;
   height: 150px;
   background-color: #ebeae5;
@@ -1666,18 +1688,18 @@ main .main-container .product-container .productother-container .other-container
           justify-content: center;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .score p {
+main .product-container .productother-container .other-container .customer-eval .different-eval .score p {
   font-size: 60px;
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul {
+main .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul {
   margin: 0px;
   padding: 0px;
   width: 385px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li {
+main .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1689,33 +1711,33 @@ main .main-container .product-container .productother-container .other-container
           justify-content: space-between;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li:nth-child(1) .graph-line {
+main .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li:nth-child(1) .graph-line {
   background-color: #e08549;
   margin-left: 19px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li .graph-line {
+main .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li .graph-line {
   width: 280px;
   height: 8px;
   background-color: #808e9e;
   margin: 0xp 10px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li p {
+main .product-container .productother-container .other-container .customer-eval .different-eval .bar-graph ul li p {
   font-size: 14px;
   letter-spacing: 0.8px;
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment {
+main .product-container .productother-container .other-container .customer-eval .customer-comment {
   margin-bottom: 40px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart {
   width: 100%;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1726,19 +1748,19 @@ main .main-container .product-container .productother-container .other-container
   padding: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .order-cart.content {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .order-cart.content {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 80%;
           flex: 0 0 80%;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content img {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content img {
   max-width: 138px;
   width: 100%;
   min-height: 138px;
@@ -1749,7 +1771,7 @@ main .main-container .product-container .productother-container .other-container
   margin-right: 15px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content {
   width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1763,17 +1785,17 @@ main .main-container .product-container .productother-container .other-container
           justify-content: space-between;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content p {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content p {
   margin: 0;
   letter-spacing: 1.6px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title p:nth-child(1) {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title p:nth-child(1) {
   color: #444444;
   font-size: 21px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title .star-eval {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title .star-eval {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1782,29 +1804,29 @@ main .main-container .product-container .productother-container .other-container
           align-items: flex-end;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title .star-eval .star-img {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title .star-eval .star-img {
   margin-right: 10px;
   color: #e08549;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title .star-eval p {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-title .star-eval p {
   font-size: 14px;
   letter-spacing: 3.2px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-text p:nth-child(1) {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-text p:nth-child(1) {
   font-size: 14px;
   letter-spacing: 1.6px;
   line-height: 26px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-text p:nth-child(2) {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .img-content .cart-content .cart-text p:nth-child(2) {
   font-size: 12px;
   letter-spacing: 1.6px;
   color: #7b8ca2;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .eval-custoemr {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .eval-custoemr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1817,30 +1839,30 @@ main .main-container .product-container .productother-container .other-container
           justify-content: flex-end;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .eval-custoemr .eval-name {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .eval-custoemr .eval-name {
   font-size: 15px;
   letter-spacing: 1.6px;
   color: #444444;
   line-height: 28px;
 }
 
-main .main-container .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .eval-custoemr .eval-date {
+main .product-container .productother-container .other-container .customer-eval .customer-comment .shopping-cart ul .eval-custoemr .eval-date {
   font-size: 14px;
   letter-spacing: 3.2px;
   color: #444444;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid {
+main .product-container .productother-container .other-container .related-commid {
   margin-top: 60px;
   border-bottom: 1px solid #7b8ca2;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .commid-title {
+main .product-container .productother-container .other-container .related-commid .commid-title {
   font-size: 36px;
   letter-spacing: 0.8px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item {
+main .product-container .productother-container .other-container .related-commid .product-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1854,7 +1876,7 @@ main .main-container .product-container .productother-container .other-container
   margin-top: 120px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first {
   width: 275px;
   height: 275px;
   background-color: #ffffffcc;
@@ -1876,18 +1898,18 @@ main .main-container .product-container .productother-container .other-container
   z-index: 2;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first img {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first img {
   position: absolute;
   width: 215px;
   top: -70px;
   left: 27px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first .content .text p {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first .content .text p {
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first .content .text p:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first .content .text p:nth-child(1) {
   font-size: 21px;
   font-weight: lighter;
   letter-spacing: 1.6px;
@@ -1895,7 +1917,7 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 10px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first .content .text p:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first .content .text p:nth-child(2) {
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 1.6px;
@@ -1903,20 +1925,20 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 30px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first .content .price span:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first .content .price span:nth-child(1) {
   font-size: 15px;
   font-weight: lighter;
   color: #666666;
   text-decoration: line-through;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first .content .price span:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first .content .price span:nth-child(2) {
   font-size: 30px;
   font-weight: bold;
   color: #f7a269;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-first button {
+main .product-container .productother-container .other-container .related-commid .product-item .product-first button {
   width: 250px;
   height: 50px;
   color: #444444;
@@ -1926,7 +1948,7 @@ main .main-container .product-container .productother-container .other-container
   margin: 30px 0px 10px 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second {
   width: 275px;
   height: 275px;
   background-color: #ffffffcc;
@@ -1948,18 +1970,18 @@ main .main-container .product-container .productother-container .other-container
   z-index: 2;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second img {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second img {
   position: absolute;
   width: 215px;
   top: -70px;
   left: 27px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second .content .text p {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second .content .text p {
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second .content .text p:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second .content .text p:nth-child(1) {
   font-size: 21px;
   font-weight: lighter;
   letter-spacing: 1.6px;
@@ -1967,7 +1989,7 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 10px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second .content .text p:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second .content .text p:nth-child(2) {
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 1.6px;
@@ -1975,20 +1997,20 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 30px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second .content .price span:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second .content .price span:nth-child(1) {
   font-size: 15px;
   font-weight: lighter;
   color: #666666;
   text-decoration: line-through;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second .content .price span:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second .content .price span:nth-child(2) {
   font-size: 30px;
   font-weight: bold;
   color: #f7a269;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second button {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second button {
   width: 250px;
   height: 50px;
   color: #444444;
@@ -1998,11 +2020,11 @@ main .main-container .product-container .productother-container .other-container
   margin: 30px 0px 10px 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-second img {
+main .product-container .productother-container .other-container .related-commid .product-item .product-second img {
   top: -100px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third {
   width: 275px;
   height: 275px;
   background-color: #ffffffcc;
@@ -2024,18 +2046,18 @@ main .main-container .product-container .productother-container .other-container
   z-index: 2;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third img {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third img {
   position: absolute;
   width: 215px;
   top: -70px;
   left: 27px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third .content .text p {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third .content .text p {
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third .content .text p:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third .content .text p:nth-child(1) {
   font-size: 21px;
   font-weight: lighter;
   letter-spacing: 1.6px;
@@ -2043,7 +2065,7 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 10px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third .content .text p:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third .content .text p:nth-child(2) {
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 1.6px;
@@ -2051,20 +2073,20 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 30px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third .content .price span:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third .content .price span:nth-child(1) {
   font-size: 15px;
   font-weight: lighter;
   color: #666666;
   text-decoration: line-through;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third .content .price span:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third .content .price span:nth-child(2) {
   font-size: 30px;
   font-weight: bold;
   color: #f7a269;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third button {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third button {
   width: 250px;
   height: 50px;
   color: #444444;
@@ -2074,11 +2096,11 @@ main .main-container .product-container .productother-container .other-container
   margin: 30px 0px 10px 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-third img {
+main .product-container .productother-container .other-container .related-commid .product-item .product-third img {
   top: -50px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth {
   width: 275px;
   height: 275px;
   background-color: #ffffffcc;
@@ -2100,18 +2122,18 @@ main .main-container .product-container .productother-container .other-container
   z-index: 2;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth img {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth img {
   position: absolute;
   width: 215px;
   top: -70px;
   left: 27px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .text p {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .text p {
   margin: 0px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .text p:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .text p:nth-child(1) {
   font-size: 21px;
   font-weight: lighter;
   letter-spacing: 1.6px;
@@ -2119,7 +2141,7 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 10px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .text p:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .text p:nth-child(2) {
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 1.6px;
@@ -2127,20 +2149,20 @@ main .main-container .product-container .productother-container .other-container
   margin-bottom: 30px;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .price span:nth-child(1) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .price span:nth-child(1) {
   font-size: 15px;
   font-weight: lighter;
   color: #666666;
   text-decoration: line-through;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .price span:nth-child(2) {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth .content .price span:nth-child(2) {
   font-size: 30px;
   font-weight: bold;
   color: #f7a269;
 }
 
-main .main-container .product-container .productother-container .other-container .related-commid .product-item .product-fourth button {
+main .product-container .productother-container .other-container .related-commid .product-item .product-fourth button {
   width: 250px;
   height: 50px;
   color: #444444;

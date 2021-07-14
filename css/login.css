@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,13 +12,18 @@
 
 .member-center {
   width: 100%;
-  height: 1010px;
+  height: 1011px;
   background-color: #ebeae5;
 }
 
 .member-center .m-center-index {
   font-size: 72px;
   color: #ffffff;
+}
+
+.member-center .list-Group {
+  position: absolute;
+  left: 4vw;
 }
 
 .member-center .list-Group .list-group-item {
@@ -29,9 +33,7 @@
   color: #ebeae5;
   font-size: 18px;
   font-weight: bold;
-  letter-spacing: 3.2px;
-  border-bottom: 1px solid black;
-  outline: none;
+  border: 1px solid black;
   z-index: 2;
 }
 
@@ -70,6 +72,7 @@
   height: 100%;
   background-color: #ffffff;
   border: 1px solid #f7a269;
+  position: relative;
 }
 
 .member-center .tab-contents .member-data .fa-user {
@@ -79,6 +82,7 @@
 
 .member-center .tab-contents .member-data .user-id {
   font-size: 14px;
+  font-weight: bold;
   color: #8090a0;
   margin: 0px 16px;
 }
@@ -107,13 +111,14 @@
 }
 
 .member-center .tab-contents .member-data .member-container .input-data {
-  border-bottom: 2px solid #abbac9;
+  height: 300px;
+  border-bottom: 1px solid #abbac9;
 }
 
 .member-center .tab-contents .member-data .member-container .input-data .label1 {
   font-size: 14px;
   color: #8090a0;
-  letter-spacing: 3.2px;
+  margin-left: 3px;
 }
 
 .member-center .tab-contents .member-data .member-container .input-data .input {
@@ -121,7 +126,17 @@
   font-size: 22.75px;
   border: none;
   border-bottom: 1px solid #8090a0;
-  outline: none;
+}
+
+.member-center .tab-contents .member-data .member-container .input-data .label2 {
+  font-size: 14px;
+  color: #8090a0;
+  margin-left: 2px;
+}
+
+.member-center .tab-contents .member-data .member-container .input-data .label3 {
+  font-size: 14px;
+  color: #8090a0;
 }
 
 .member-center .tab-contents .member-data .member-container .input-data .county,
@@ -148,16 +163,13 @@
   font-size: 14px;
   color: #8090a0;
   border: 1px solid #8090a0;
-  outline: none;
 }
 
 .member-center .tab-contents .member-data .member-container .input-data .member-btn button {
   height: 41px;
   border: 1px solid #a0a0a0;
-  font-size: 19.5px;
-  letter-spacing: 3.2px;
+  font-size: 14px;
   color: #444444;
-  line-height: 10px;
 }
 
 .member-center .tab-contents .member-data .member-container .input-data .member-btn button:hover {
@@ -175,6 +187,7 @@
 }
 
 .member-center .tab-contents .member-data .table-container .table {
+  height: 400px;
   font-size: 14px;
 }
 
@@ -183,86 +196,44 @@
   color: #ebeae5;
 }
 
-.member-center .tab-contents .member-data .table-container .table .orderNumber {
-  width: 120px;
+.member-center .tab-contents .member-data .table-container .table td,
+.member-center .tab-contents .member-data .table-container .table th {
+  border-top: none;
+}
+
+.member-center .tab-contents .member-data .table-container .table .order-number {
+  width: 128px;
+  height: 25px;
+  background-color: #a0a0a0;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.member-center .tab-contents .member-data .table-container .table .check {
+  padding-top: 12px;
+}
+
+.member-center .tab-contents .member-data .table-container .table .check .checkInvoice {
+  height: 30px;
   background-color: #a0a0a0;
   color: #ffffff;
 }
 
-.member-center .tab-contents .member-data .table-container .table .checkInvoice, .member-center .tab-contents .member-data .table-container .table .returnInfor {
+.member-center .tab-contents .member-data .table-container .table .return {
+  padding-top: 12px;
+}
+
+.member-center .tab-contents .member-data .table-container .table .return .return-infor {
+  height: 30px;
   background-color: #a0a0a0;
   color: #ffffff;
 }
 
-.member-center .tab-contents .member-data .table-container .table-icon button {
-  background-color: #ffffff;
+.member-center .tab-contents .member-data .table-container .table-icon a {
   color: #a0a0a0;
-  border: none;
 }
 
-.member-center .tab-contents .member-data .table-container .table-icon button:hover {
+.member-center .tab-contents .member-data .table-container .table-icon a:hover {
   color: #f7a269;
-}
-
-@media (max-width: 1024px) {
-  .list-Group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .table tr {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .table th {
-    display: none;
-  }
-  .table .orderNumber {
-    width: 120px;
-    margin: auto;
-  }
-  .table .orderNumber1 {
-    background-color: black;
-    margin-top: 10vh;
-  }
-  .table .checkInvoice, .table .returnInfor {
-    width: 80px;
-    margin: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .data-left {
-    margin-top: 50px;
-    margin-left: 25%;
-  }
-  .data-right {
-    margin-left: 25%;
-  }
-  .address-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .address-block .address {
-    margin-left: 15px;
-  }
-  .address-block .address .input1 {
-    position: absolute;
-    top: 75px;
-  }
 }
 /*# sourceMappingURL=login.css.map */

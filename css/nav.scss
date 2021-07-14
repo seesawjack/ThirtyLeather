@@ -45,9 +45,6 @@ nav{
                 li{
                     padding:0px 1.7vw;
                     border-right: 1px solid $color-Nav-Separate;
-                    &:nth-last-child(2){
-                        border: 0px;
-                    }
                 }
                 .more-option{
                     display: none;
@@ -113,15 +110,17 @@ nav{
     }
     @include notebook(){
         .options{
-            ul{
-                li:nth-child(n+4){
-                    display: none;
-                }
-                li:nth-last-child(){
-                    border:0px;
-                }
-                .more-option{
-                    display: block;
+            .option{
+                ul{
+                    li:nth-child(n+5){
+                        display: none;
+                    }
+                    li:nth-last-child(){
+                        border:0px;
+                    }
+                    .more-option{
+                        display: block;
+                    }
                 }
             }
         }

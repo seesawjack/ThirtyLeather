@@ -1,7 +1,5 @@
 @import "_style_guild.scss";
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
-
 * {
     list-style: none;
     margin: 0px;
@@ -10,39 +8,40 @@
 
 .member-center {
     width: 100%;
-    height: 1010px;
-    background-color: $color-LightGray;
+    height: 1011px;
+    background-color: #ebeae5;
 
     .m-center-index {
         font-size: 72px;
-        color: $color-White;
+        color: #ffffff;
     }
 
     .list-Group {
+        position: absolute;
+        left: 4vw;
+
         .list-group-item {
             width: 170px;
             height: 60px;
-            background-color: $color-Footer-Background;
-            color: $color-LightGray;
-            font-size: $H7-font-size;
+            background-color: #7a7573;
+            color: #ebeae5;
+            font-size: 18px;
             font-weight: bold;
-            letter-spacing: $font-letter-space-200;
-            border-bottom: 1px solid black;
-            outline: none;
+            border: 1px solid black;
             z-index: 2;
 
             &:hover {
-                background-color: $color-Footer-Background;
-                color: $color-LightGray;
+                background-color: #7a7573;
+                color: #ebeae5;
             }
 
             &.active {
                 width: 205px;
-                background-color: $color-White;
-                color: $color-WedgwoodBlue;
+                background-color: #ffffff;
+                color: #8090a0;
                 font-weight: bold;
-                border-color: $color-SkyBlue;
-                border-right: 18px solid $color-SkyBlue;
+                border-color: #86b2c4;
+                border-right: 18px solid #86b2c4;
                 margin-left: -18px;
                 z-index: 2;
             }
@@ -65,36 +64,38 @@
         .member-data {
             width: 1140px;
             height: 100%;
-            background-color: $color-White;
-            border: 1px solid $color-Apricot;
+            background-color: #ffffff;
+            border: 1px solid #f7a269;
+            position: relative;
 
             .fa-user {
-                font-size: $H8-font-size;
-                color: $color-WedgwoodBlue;
+                font-size: 16px;
+                color: #8090a0;
             }
 
             .user-id {
-                font-size: $H10-font-size;
-                color: $color-WedgwoodBlue;
+                font-size: 14px;
+                font-weight: bold;
+                color: #8090a0;
                 margin: 0px 16px;
             }
 
             .general-member {
                 width: 80px;
-                background-color: $color-Apricot;
-                font-size: $H9-font-size;
+                background-color: #f7a269;
+                font-size: 15px;
                 border-radius: 10px;
             }
 
             .User-edit {
-                color: $color-MoreButton-hover;
+                color: #abbac9;
 
                 .fa-pen {
-                    font-size: $H7-font-size;
+                    font-size: 18px;
                 }
 
                 .user-edit {
-                    font-size: $H9-font-size;
+                    font-size: 15px;
                 }
             }
 
@@ -102,162 +103,131 @@
                 width: 95%;
 
                 .input-data {
-                    border-bottom: 2px solid $color-MoreButton-hover;
+                    height: 300px;
+                    border-bottom: 1px solid #abbac9;
 
                     .label1 {
-                        font-size: $H10-font-size;
-                        color: $color-WedgwoodBlue;
-                        letter-spacing: $font-letter-space-200;
+                        font-size: 14px;
+                        color: #8090a0;
+                        margin-left: 3px;
                     }
 
                     .input {
                         width: 278px;
                         font-size: 22.75px;
                         border: none;
-                        border-bottom: 1px solid $color-WedgwoodBlue;
-                        outline: none;
+                        border-bottom: 1px solid #8090a0;
+                    }
+
+                    .label2 {
+                        font-size: 14px;
+                        color: #8090a0;
+                        margin-left: 2px;
+                    }
+
+                    .label3 {
+                        font-size: 14px;
+                        color: #8090a0;
                     }
 
                     .county,
                     .zipcode {
                         width: 65px;
                         height: 32px;
-                        font-size: $H10-font-size;
-                        color: $color-WedgwoodBlue;
-                        border: 1px solid $color-WedgwoodBlue;
+                        font-size: 14px;
+                        color: #8090a0;
+                        border: 1px solid #8090a0;
                     }
 
                     .district {
                         width: 65px;
                         height: 32px;
-                        font-size: $H10-font-size;
-                        color: $color-WedgwoodBlue;
-                        border: 1px solid $color-WedgwoodBlue;
+                        font-size: 14px;
+                        color: #8090a0;
+                        border: 1px solid #8090a0;
                         margin: 0px 20px;
                     }
 
                     .input1 {
                         width: 235px;
                         height: 32px;
-                        font-size: $H10-font-size;
-                        color: $color-WedgwoodBlue;
-                        border: 1px solid $color-WedgwoodBlue;
-                        outline: none;
+                        font-size: 14px;
+                        color: #8090a0;
+                        border: 1px solid #8090a0;
                     }
 
-                    .member-btn {
-                        button {
-                            height: 41px;
-                            border: 1px solid $color-MoreButton;
-                            font-size: 19.5px;
-                            letter-spacing: $font-letter-space-200;
-                            color: $color-IronGray;
-                            line-height: 10px;
+                    .member-btn button {
+                        height: 41px;
+                        border: 1px solid #a0a0a0;
+                        font-size: 14px;
+                        color: #444444;
+                    }
 
-                            &:hover {
-                                background-color: $color-MoreButton-hover;
-                                color: $color-White;
-                            }
-                        }
+                    .member-btn button:hover {
+                        background-color: #abbac9;
+                        color: #ffffff;
                     }
                 }
             }
 
             .order-five {
                 font-size: 29.25px;
-                color: $color-WedgwoodBlue;
+                color: #8090a0;
             }
 
             .table-container {
                 width: 90%;
 
                 .table {
-                    font-size: $H10-font-size;
-
+                    height: 400px;
+                    font-size: 14px;
+    
                     thead {
-                        background-color: $color-Footer-Background;
-                        color: $color-LightGray;
+                        background-color: #7a7573;
+                        color: #ebeae5;
                     }
-
-                    .orderNumber {
-                        width: 120px;
-                        background-color: $color-MoreButton;
-                        color: $color-White;
+    
+                    td,
+                    th {
+                        border-top: none;
                     }
-
-                    .checkInvoice, .returnInfor {
-                        background-color: $color-MoreButton;
-                        color: $color-White;
+    
+                    .order-number {
+                        width: 128px;
+                        height: 25px;
+                        background-color: #a0a0a0;
+                        color: #ffffff;
+                        margin-top: 16px;
                     }
-                }
-
-                .table-icon {
-                    button {
-                        background-color: $color-White;
-                        color: $color-MoreButton;
-                        border: none;
-
-                        &:hover {
-                            color: $color-Apricot;
+    
+                    .check {
+                        padding-top: 12px;
+    
+                        .checkInvoice {
+                            height: 30px;
+                            background-color: #a0a0a0;
+                            color: #ffffff;
+                        }
+                    }
+    
+                    .return {
+                        padding-top: 12px;
+    
+                        .return-infor {
+                            height: 30px;
+                            background-color: #a0a0a0;
+                            color: #ffffff;
                         }
                     }
                 }
-            }
-        }
-    }
-}
 
-@media (max-width: 1024px) {
-    .list-Group {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .table {
-        tr{
-            display: flex;
-            flex-direction: column;
-        }
-        th {
-            display: none;
-        }
+                .table-icon a {
+                    color: #a0a0a0;
     
-        .orderNumber {
-            width: 120px;
-            margin: auto;
-        }
-    
-        .orderNumber1 {
-            background-color: black;
-            margin-top: 10vh;
-        }
-    
-        .checkInvoice, .returnInfor {
-            width: 80px;
-            margin: auto;
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    .data-left {
-        margin-top: 50px;
-        margin-left: 25%;
-    }
-
-    .data-right {
-        margin-left: 25%;
-    }
-    
-    .address-block {
-        display: flex;
-        flex-direction: column;
-        .address {
-            margin-left: 15px;
-
-            .input1 {
-                position: absolute;
-                top: 75px;
+                    &:hover {
+                        color: #f7a269;
+                    }
+                }
             }
         }
     }

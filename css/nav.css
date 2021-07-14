@@ -69,10 +69,6 @@ nav .options .option ul li {
   border-right: 1px solid #e8d0c1;
 }
 
-nav .options .option ul li:nth-last-child(2) {
-  border: 0px;
-}
-
 nav .options .option ul .more-option {
   display: none;
 }
@@ -148,13 +144,13 @@ nav .options .input-cart .cart .cart-number {
 }
 
 @media (max-width: 1550px) {
-  nav .options ul li:nth-child(n+4) {
+  nav .options .option ul li:nth-child(n+5) {
     display: none;
   }
-  nav .options ul li:nth-last-child() {
+  nav .options .option ul li:nth-last-child() {
     border: 0px;
   }
-  nav .options ul .more-option {
+  nav .options .option ul .more-option {
     display: block;
   }
 }

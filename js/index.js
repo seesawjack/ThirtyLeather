@@ -94,13 +94,36 @@ var sticky = navbar.offsetTop;
 //取得banner的高度
 var bannerHeight = document.querySelector('.swiper-container').offsetHeight;
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+let shortLine = document.querySelector('.short-line');
+let longLine = document.querySelector('.long-line');
 function myFunction() {
   if (window.pageYOffset >= bannerHeight) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
+    longLine.className="long-line";
+    shortLine.className="short-line";
   } else {
     navbar.classList.remove("sticky");
+    longLine.className="";
+    shortLine.className="";
   }
 }
+//slide in on scroll 
+// window.onscroll = function() {myFunction()};
+// let shortLine = document.querySelector('.short-line');
+// let longLine = document.querySelector('.long-line');
+
+
+// window.onscroll = function() {myFunction()};
+
+// function myFunction() {
+//   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+//     longLine.className="long-line";
+//     shortLine.className="short-line";
+//   } else {
+//     longLine.className="";
+//     shortLine.className="";
+//   }
+// }
 
 //試穿資訊按鈕操控
 let photo_Button = document.querySelector('.photo-button');
@@ -115,40 +138,7 @@ photo_Button.addEventListener('click',function(){
 });
 
 
-
-
-//slide in on scroll 
-// window.onscroll = function() {myFunction()};
-let shortLine = document.querySelector('.short-line');
-let longLine = document.querySelector('.long-line');
-let svgScissors = document.querySelectorAll('.scissors');
-console.log(svgScissors);
-
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    longLine.className="long-line";
-    shortLine.className="short-line";
-    svgScissors.className = "scissors";
-  } else {
-    longLine.className="";
-    shortLine.className="";
-    svgScissors.className ="";
-  }
-}
-
-// //svg animation
-// var $doc = $(document),
-//     $win = $(window),
-//     $svg = $('svg').drawsvg(animate),
-//     max = $doc.height() - $win.height();
-
-//     $win.on('scroll',function(){
-//       var p = $win.scrollTop() / max;
-//       $svg.drawsvg('progress',p);
-//     });
-
+//svg animation
 function debounce(func, wait = 20, immediate = true) {
   var timeout;
   return function() {
