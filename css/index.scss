@@ -66,13 +66,34 @@
 }
 nav{
     z-index: 99;
-    transition: 1s ease-in-out;
+    transition: 1s;
+    animation:smoothScrollUp 1s ease-in-out;
     &.sticky {
         position: fixed;
         top: 0;
         width: 100%;
         background-color: $color-White;
         animation: smoothScroll 1s forwards;
+        .personal-item{
+            height: 58px;
+            .input-cart{
+                padding-top: 20px;
+
+            }
+        }
+        .navbar{
+            padding:20px 0px 0px 3.7rem;
+            @include sm-tablet(){
+                padding: 0px 0px 0px 3.7rem;
+            }
+            @include sm-phone(){
+                padding:0px;
+            }
+        }
+        .logo{
+            width: 58px;
+            height: 58px;
+        }
     }
     @keyframes smoothScroll {
         0% {
@@ -82,9 +103,15 @@ nav{
             transform: translateY(0px);
         }
     }
-      &.sticky + .content {
-        padding-top: 60px;
-      }
+    @keyframes smoothScrollUp {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(-40px);
+        }
+    }
+
 }
 main {
     .main-container{

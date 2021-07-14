@@ -14,8 +14,10 @@
 
 nav {
   z-index: 99;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-animation: smoothScrollUp 1s ease-in-out;
+          animation: smoothScrollUp 1s ease-in-out;
 }
 
 nav.sticky {
@@ -25,6 +27,39 @@ nav.sticky {
   background-color: #ffffff;
   -webkit-animation: smoothScroll 1s forwards;
           animation: smoothScroll 1s forwards;
+}
+
+nav.sticky .personal-item {
+  height: 58px;
+}
+
+nav.sticky .personal-item .input-cart {
+  padding-top: 20px;
+}
+
+nav.sticky .navbar {
+  padding: 20px 0px 0px 3.7rem;
+}
+
+@media (max-width: 1024px) {
+  nav.sticky .navbar {
+    padding: 0px 0px 0px 3.7rem;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 520px) {
+  nav.sticky .navbar {
+    padding: 0px;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+}
+
+nav.sticky .logo {
+  width: 58px;
+  height: 58px;
 }
 
 @-webkit-keyframes smoothScroll {
@@ -49,8 +84,26 @@ nav.sticky {
   }
 }
 
-nav.sticky + .content {
-  padding-top: 60px;
+@-webkit-keyframes smoothScrollUp {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+}
+
+@keyframes smoothScrollUp {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
 }
 
 main .main-container {
